@@ -1,0 +1,134 @@
+.main-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Kadwa";
+}
+.explore-subtitle{
+  font-family: "Kadwa";
+}
+.explore-page-overall-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2.5%;
+}
+.explore-img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 2rem;
+}
+.for-kids-container,
+.for-researchers-container,
+.for-teachers-container {
+  width: 100%;
+  height: 38rem;
+  border: solid 3px black;
+  border-radius: 2rem;
+  font-family: "Mooli";
+  background-color: rgba(227, 221, 199, 1);
+}
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .explore-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .for-kids-container,
+  .for-researchers-container,
+  .for-teachers-container {
+    width: 100%;
+    height: 42rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1024px) {
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .explore-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .for-kids-container,
+  .for-researchers-container,
+  .for-teachers-container {
+    width: 100%;
+    height: 45rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 1024px) and (min-width: 900px) {
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .explore-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .for-kids-container,
+  .for-researchers-container,
+  .for-teachers-container {
+    width: 100%;
+    height: 48rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 900px) and (min-width: 768px) {
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .explore-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .for-kids-container,
+  .for-researchers-container,
+  .for-teachers-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) and (min-width: 430px) {
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .explore-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .for-kids-container,
+  .for-researchers-container,
+  .for-teachers-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 430px) and (min-width: 350px) {
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .explore-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .for-kids-container,
+  .for-researchers-container,
+  .for-teachers-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,304 @@
+body {
+  background-color: rgba(203, 203, 203, 1);
+}
+.page-header {
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 2.2rem;
+  border-radius: 2rem;
+}
+.logo {
+  display: flex;
+  width: 10%;
+  z-index: 100;
+  margin-top: -23rem;
+  margin-bottom: 12rem;
+}
+.navigation-overall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5%;
+  height: 4rem;
+  border: solid 3px black;
+  border-radius: 2rem;
+  background-color: rgba(68, 172, 224, 1);
+}
+.nav-button-design {
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  background-color: transparent;
+  font-family: "Mooli", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bottom-links-container {
+  width: 100%;
+  margin-top: 10rem;
+  border: solid black 3px;
+  border-radius: 2rem;
+  font-family: "Mooli", sans-serif;
+  background-color: rgba(68, 172, 224, 1);
+}
+.social-media-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.bottom-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 3.5rem;
+}
+.bottom-links-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.no-text-decoration {
+  color: black;
+  text-decoration: none;
+}
+.bottom-links-title {
+  font-family: "Kadwa";
+  font-size: 1rem;
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .page-header {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 0rem;
+  }
+  .logo {
+    width: 10%;
+    margin-top: -15.5rem;
+    margin-bottom: 8rem;
+  }
+  .navigation-overall-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2.5%;
+    height: 4rem;
+    padding-left: 0.5rem;
+    border-radius: 2rem;
+  }
+  .nav-button-design {
+    width: 2rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  .social-media-icon {
+    width: 2rem;
+    height: 1.5rem;
+  }
+  .bottom-links-container {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .bottom-links {
+    gap: 1.5rem;
+    padding-left: 0.6rem;
+  }
+  .bottom-links-column {
+    gap: 0.6rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .page-header {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 0rem;
+  }
+  .logo {
+    width: 10%;
+    margin-top: -15.5rem;
+    margin-bottom: 10rem;
+  }
+  .navigation-overall-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2.5%;
+    height: 4rem;
+    padding-left: 0.5rem;
+  }
+  .nav-button-design {
+    width: 2rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  .social-media-icon {
+    width: 2rem;
+    height: 1.5rem;
+  }
+  .bottom-links-container {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .bottom-links {
+    gap: 1.5rem;
+    padding-left: 0.6rem;
+  }
+  .bottom-links-column {
+    gap: 0.6rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page-header {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 0rem;
+  }
+  .logo {
+    width: 20%;
+    margin-top: -15.5rem;
+    margin-bottom: 7.5rem;
+  }
+  .navigation-overall-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5%;
+    padding-left: 0.5rem;
+    height: 6rem;
+    border-radius: 2rem;
+  }
+  .nav-button-design {
+    width: 2rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  .social-media-icon {
+    width: 2rem;
+    height: 1.5rem;
+  }
+  .bottom-links-container {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .bottom-links {
+    gap: 1.5rem;
+    padding-left: 0.6rem;
+  }
+  .bottom-links-column {
+    gap: 0.6rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  .page-header {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 0rem;
+  }
+  .logo {
+    width: 20%;
+    margin-top: -15.5rem;
+    margin-bottom: 11rem;
+  }
+  .navigation-overall-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5%;
+    height: 6rem;
+    padding-left: 0.5rem;
+    border-radius: 2rem;
+  }
+  .nav-button-design {
+    width: 2rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  .social-media-icon {
+    width: 2rem;
+    height: 1.5rem;
+  }
+  .bottom-links-container {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .bottom-links {
+    gap: 1.5rem;
+    padding-left: 0.6rem;
+  }
+  .bottom-links-column {
+    gap: 0.6rem;
+  }
+}
+@media (min-width: 431px) and (max-width: 600px) {
+  .page-header {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+  }
+  .logo {
+    width: 18%;
+    margin-top: -12rem;
+    margin-bottom: 6rem;
+  }
+  .navigation-overall-container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 2.5%;
+    height: 6rem;
+    border-radius: 2rem;
+  }
+  .nav-button-design {
+    width: 2rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  .social-media-icon {
+    width: 2rem;
+    height: 1.5rem;
+  }
+  .bottom-links-container {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .bottom-links {
+    gap: 1.5rem;
+    padding-left: 0.6rem;
+  }
+  .bottom-links-column {
+    gap: 0.6rem;
+  }
+}
+@media (min-width: 350px) and (max-width: 430px) {
+  .page-header {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+  }
+  .logo {
+    width: 20%;
+    margin-top: -11rem;
+    margin-bottom: 6rem;
+  }
+  .navigation-overall-container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 2.5%;
+    height: 6rem;
+    border-radius: 2rem;
+  }
+  .nav-button-design {
+    width: 2rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
+  .social-media-icon {
+    width: 2rem;
+    height: 1.5rem;
+  }
+  .bottom-links-container {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .bottom-links {
+    gap: 1.5rem;
+    padding-left: 0.6rem;
+  }
+  .bottom-links-column {
+    gap: 0.6rem;
+  }
+}

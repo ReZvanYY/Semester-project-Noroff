@@ -1,0 +1,125 @@
+.event-img {
+  width: 50%;
+  height: 15rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.event-title{
+  display: flex;
+  justify-content: center;
+  font-family: "Kadwa";
+}
+.event-subtitle{
+  font-family: "Kadwa";
+}
+.event-page-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem;
+}
+.professor-event-container,
+.night-event-container,
+.energica-event-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: solid 3px black;
+  border-radius: 2rem;
+  background-color: rgba(68, 172, 224, 1);
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  font-size: 1.2rem;
+  font-family: "Mooli";
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .event-img {
+    width: 95%;
+    height: 15rem;
+  }
+  .event-page-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+  }
+  .professor-event-container,
+  .energica-event-container,
+  .night-event-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: solid 3px black;
+    border-radius: 2rem;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) and (min-width: 430px) {
+  .event-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .event-page-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+  }
+  .professor-event-container,
+  .energica-event-container,
+  .night-event-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: solid 3px black;
+    border-radius: 2rem;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 430px) and (min-width: 350px) {
+  .event-img {
+    width: 100%;
+    height: 15rem;
+  }
+  .event-page-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+  }
+  .professor-event-container,
+  .energica-event-container,
+  .night-event-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: solid 3px black;
+    border-radius: 2rem;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+}
